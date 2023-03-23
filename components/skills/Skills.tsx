@@ -10,7 +10,7 @@ import skillImageSeven from "../../public/assets/skills/github1.png";
 import skillImageEaight from "../../public/assets/skills/shopify.png";
 export default function cmp_skills() {
   return (
-    <div className="p-2 w-full lg:h-screen">
+    <div id="skills" className="p-2 w-full lg:h-screen">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="uppercase text-xl tracking-widest text-[#5651e5]">
           Skills
