@@ -1,6 +1,10 @@
 import Head from "next/head";
 import Navbar from "../../components/navbar/Navbar";
 import Main from "../../components/main/Main";
+import About from "../../components/about/About";
+import Skills from "../../components/skills/Skills";
+import Projects from "../../components/projects/Projects";
+import Contact from "../../components/contact/Contact";
 export default function Home() {
   return (
     <>
@@ -12,6 +16,10 @@ export default function Home() {
       </Head>
       <Navbar />
       <Main />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </>
   );
 }
